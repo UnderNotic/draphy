@@ -1,6 +1,10 @@
 language: node_js
 node_js:
 - '8'
+env:
+  global:
+    - COVERALLS_SERVICE_NAME=travis-ci    
+    - secure: As49t6GQ/IEXBL7p4dRpnmH8zeAEHymLqAjFwmvq+DKEHy89Zv6UcxA/uBhxlY0eR2QKV0p/KNZMEHx4PUE1WAogmUoDoem6wmvW6q/+5wDKbIfU09Qu+ZNnTBUhLgAWLWBF6Lbi+32C4tEFHT/bjVzQW18pgZxiqI9Z/wBDEjKVpYZ4d4pFS1p7sIB6CNr8qBsI5PDsa2ZGykoAcIoADkqXJJ0COwAaz3ypHONUlJdczxW3GHrIeecqaFPD7W+ByUJtBylLZIv7zJwunUj71oVoUTf+FbiCglReXUPEA+LzfCLNqU+j/LaCTD0lpJOIozDyVAqT/H+uI/DJz8XK2gvihsPz+pmXUPCtJcJRRDK40Pzi3JwcqBf8hErEVuwsWEHUUVpkzw9KXdtVyE/pb7rEyoYUR2UmP2niI7Eho0v9SABTFW+aghEvdeDQ0vNX14TIMEtvoDCehbFU7N1w0c1wan4aBD7lL2vpds8Q1cqqMgeJKe5xFE1JHjnEBEHfhuLQuFrOTs/nD28a0ObKA3sHEK9yCurEZx/PDoiWkNhd48hEKorsxpGpvKG6lxVdt+vq0iCaiNcFefSieS7lSPkdZE3G9RZFkWLv8Z9wOxAIAury6OiuHTOthkStbNUwZ5YJf771foIwydu8wVzGf/2ohm1PPdNOOHPfX1OaeWo=
 script:
 - npm run test-coverage
 cache:
