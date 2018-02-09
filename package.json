@@ -4,7 +4,8 @@
   "description": "Performant graph visualization library",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
