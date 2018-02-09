@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "test-coverage": "jest --coverage"
+    "test-coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
