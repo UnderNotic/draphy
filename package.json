@@ -1,0 +1,33 @@
+{
+  "name": "draphy",
+  "version": "0.0.1",
+  "description": "Performant graph visualization library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnderNotic/draphy.git"
+  },
+  "keywords": [
+    "graph",
+    "graphs",
+    "visualization",
+    "canvas"
+  ],
+  "author": "undernotic <udnernotic@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UnderNotic/draphy/issues"
+  },
+  "homepage": "https://github.com/UnderNotic/draphy#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "cross-env": "^5.1.3",
+    "jest": "^22.2.2",
+    "rollup": "^0.55.4",
+    "rollup-plugin-uglify": "^3.0.0",
+    "testcafe": "^0.18.6"
+  }
+}
