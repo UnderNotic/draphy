@@ -1,3 +1,5 @@
+# <img height="250" alt="portfolio_view" src="https://raw.githubusercontent.com/undernotic/draphy/master/img/draphy.png">
+
 [![Build Status](https://travis-ci.org/UnderNotic/draphy.svg?branch=master)](https://travis-ci.org/UnderNotic/draphy)
 [![Coverage Status](https://coveralls.io/repos/github/UnderNotic/draphy/badge.svg?branch=master)](https://coveralls.io/github/UnderNotic/draphy?branch=master)
 [![BCH compliance](https://bettercodehub.com/edge/badge/UnderNotic/draphy?branch=master)](https://bettercodehub.com/)
