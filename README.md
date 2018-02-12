@@ -5,3 +5,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![NPM](https://nodei.co/npm/draphy.png)](https://nodei.co/npm/draphy/)
+
+Performant and simple to use graph visualization library
