@@ -8,4 +8,4 @@
 
 [![NPM](https://nodei.co/npm/draphy.png)](https://nodei.co/npm/draphy/)
 
-Performant and simple to use graph visualization library
+Performant and easy to use graph visualization library

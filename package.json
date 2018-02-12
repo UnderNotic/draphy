@@ -1,7 +1,7 @@
 {
   "name": "draphy",
   "version": "0.0.2",
-  "description": "Performant and simple to use graph visualization library",
+  "description": "Performant and easy to use graph visualization library",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
